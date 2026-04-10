@@ -11,7 +11,7 @@ class PersistenceController {
     }
 
     private init() {
-        persistentContainer = NSPersistentContainer(name: "A2_iOS_Sahand_StudentID")
+        persistentContainer = NSPersistentContainer(name: "A2_iOS_Sahand_101500272)
         persistentContainer.loadPersistentStores { _, error in
             if let error = error as NSError? {
                 fatalError("Unresolved error \(error), \(error.userInfo)")
